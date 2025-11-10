@@ -65,9 +65,8 @@ This is not an AI agent; it performs predefined automation tasks.
 Ensure your ChromeDriver matches your Chrome browser version.
 Designed for research and educational purposes in GEE workflows.
 There might be timeout errors to fix increase the sleep time
-```
-It depends on your WiFi speed
-```
+(It depends on your WiFi speed)
+
 
 ---
 
