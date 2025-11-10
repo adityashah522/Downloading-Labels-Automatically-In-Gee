@@ -34,17 +34,20 @@ This project is a **web automation bot** that automates downloading labeled stud
    ```bash
    pip install selenium pydrive2
 3. **Download ChromeDriver compatible with your Chrome version and place it in the project directory.**
-4. **Set Chrome profile path in the script:**
+4. **Download the GoogleDrive API as a .JSON**
+5. **Set Chrome profile path in the script:**
    ```python
    options.add_argument('--user-data-dir=/path/to/your/chrome/profile')
-5. **Authenticate with Google Drive when prompted by PyDrive2.**
-6. **Set target Google Drive folder ID in the script:**
+6. **Authenticate with Google Drive when prompted by PyDrive2.**
+7. **Set target Google Drive folder ID in the script:**
    ```python
    folderid = 'YOUR_FOLDER_ID'
+   ```
+8. Setup a Virtual Enviorment and run the scprit 
 
 ---
 
-##Usage
+### Usage
 
 **Run the script:**
 ```bash
@@ -61,6 +64,10 @@ python gee_auto.py
 This is not an AI agent; it performs predefined automation tasks.
 Ensure your ChromeDriver matches your Chrome browser version.
 Designed for research and educational purposes in GEE workflows.
+There might be timeout errors to fix increase the sleep time
+```
+It depends on your WiFi speed
+```
 
 ---
 
